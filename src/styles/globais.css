@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+
+@theme {
+
+    --verde_folha: rgb(76, 175, 80);
+        --verde_musgo: #355e3b;
+        --amarelo_terroso: #FBC02D;
+        --marrom_terra: #6D4C41;
+        --bege:#F5F5DC;
+        --cinza:#333333;
+        --texto_suave: #666666;
+        --laranja:#fa632c;
+        --laranja_escuro:#f34f13;
+        --verde_footer:#B1BFA3
+       
+}
+body{
+    @apply bg-[var(--bege)] font-sans tracking-wide ;
+    
+    
+}
+.image-sobre img{ 
+    @apply h-30 w-30 lg:h-60 lg:w-60 object-cover rounded-2xl shadow-gray-700 shadow-lg;
+}
+li{
+    @apply  text-[var(--cinza)] text-lg hover:text-[var(--verde_folha)] cursor-pointer;
+}
+section{
+    @apply px-10 md:px-20;
+
+}
+
+.produtos .fotos img{
+    @apply h-52 w-3/4  sm:h-56 sm:w-56 md:w-64 md:h-64 mx-auto lg:h-60 lg:w-60 object-cover rounded-xl cursor-pointer shadow-gray-700 shadow-lg hover:scale-105 transition-transform duration-300;
+}
