@@ -27,7 +27,7 @@ li{
     @apply  text-[var(--cinza)] text-lg hover:text-[var(--verde_folha)] cursor-pointer;
 }
 section{
-    @apply px-20 md:px-20 w-full;
+    @apply px-7 md:px-20 w-full;
 
 }
 

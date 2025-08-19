@@ -4,9 +4,9 @@ export default function Feira({innerRef}) {
     return (
 
         <>
-            <section ref={innerRef} className="feira mt-20 py-20 flex flex-col ">
+            <section ref={innerRef} className="feira mt-20 flex flex-col ">
                 <div className=" feira_text text-center items-center flex flex-col text-[var(--verde_musgo)] font-bold gap-7 ">
-                    <h1 className="text-4xl">Onde encontrar nossos produtos</h1>
+                    <h1 className="text-4xl">Aonde encontrar nossos produtos</h1>
 
                     <p className="md:text-lg text-base  text-center py-7  ">
                         Você também pode encontrar o Paraíso dos Orgânicos presencialmente, direto na feira! <br />
@@ -22,8 +22,8 @@ export default function Feira({innerRef}) {
 
                 </div>
 
-                <div className="feira_image relative mt-30 flex items-center justify-center  h-72">
-                    <div className="h-96 w-44 bg-[var(--verde_musgo)]  absolute md:left-1/4"></div>
+                <div className="feira_image relative mt-20 flex items-center justify-center h-96">
+                    <div className="h-96 w-44 bg-[var(--verde_musgo)]  absolute md:left-1/4 mb-"></div>
                     <img className='w-full md:w-2/3  h-72 z-30 ' src={imgFeira} alt="" />
                 </div>
 

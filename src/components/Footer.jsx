@@ -11,7 +11,7 @@ export default function Footer({innerRef}) {
                     <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
                         <div>
                             <h1 className='capitalize text-xl font-bold mb-2'>paraiso dos orgânicos</h1>
-                            <p className='text-lg'>lago oeste rua 25 ch 36 - sobradinho</p>
+                            <p className='text-sm'>lago oeste rua 25 ch 36 - sobradinho</p>
                             <div className='icons flex gap-2 mt-3'>
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
