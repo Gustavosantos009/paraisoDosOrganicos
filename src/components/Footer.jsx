@@ -6,7 +6,7 @@ export default function Footer({innerRef}) {
     return (
 
         <>
-            <footer ref={innerRef} className="bg-[var(--verde_footer)] text-[var(--cinza)] py-10 mt-8 px-10">
+            <footer ref={innerRef} className="bg-[var(--verde_footer)] text-[var(--cinza)] py-10 w-full mt-8 px-10">
                 <div>
                     <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
                         <div>
